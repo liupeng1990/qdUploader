@@ -1,1 +1,76 @@
-﻿
+﻿*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	color:#4a4a4a;
+	font-weight: 100;
+	font: 12px/1.5 "arial","Microsoft Yahei","STXihei","Hiragino Sans GB",sans-serif;
+	-webkit-font-smoothing:antialiased;
+}
+
+a, a:active, a:visited{
+	color:#4d4d4d;
+	text-decoration: none;
+}
+
+a img{
+	border:none;
+}
+
+#qdUploader{
+	margin-top:13px;
+	width: 100%;
+}
+
+#qdUploader ul{
+	margin-top:13px;
+	width: 100%;
+	list-style: none;
+	background-color: #ccc;
+}
+
+#qdUploader ul li{
+	margin-right: 13px;
+	margin-bottom: 13px;
+	position: relative;
+	display: block;
+	float: left;
+	cursor: move;
+}
+
+#qdUploader ul li .delete{
+	font-size: 10px;
+	position: absolute;
+	top:3px;
+	right: 5px;
+}
+
+#qdUploader ul li.uploader-btn{
+	position: relative;
+	font-size: 50px;
+	width: 80px;
+	height: 80px;
+	color: #eee;
+	border:2px dashed #eee;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+#qdUploader ul li.uploader-btn input{
+	position: absolute;
+	top:0;
+	right: 0;
+	margin:0;
+	opacity: 0;
+	cursor: pointer;
+
+}
+
+
+#qdUploader .btn{
+	display: block;
+	clear: both;
+}
